@@ -1,9 +1,9 @@
 {
-  "name": "marp",
-  "version": "0.0.14",
+  "name": "noHTMLmarp",
+  "version": "0.0.14-NoHTMLpatched",
   "private": true,
   "description": "Markdown Presentation Writer (Powered by Electron)",
-  "productName": "Marp",
+  "productName": "noHTMLMarp",
   "repository": {
     "type": "git",
     "url": "https://github.com/yhatt/marp"

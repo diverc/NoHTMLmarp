@@ -22,7 +22,7 @@ module.exports = class MdsMarkdown
 
   @default:
     options:
-      html: true
+      html: false
       xhtmlOut: true
       breaks: true
       linkify: true
