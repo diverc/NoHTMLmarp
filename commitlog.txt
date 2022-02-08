@@ -1,0 +1,2161 @@
+commit 11cb3172036bf95588e2487f29e8837a73e0e563
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Nov 16 01:16:47 2018 +0900
+
+    0.0.14
+
+commit ff6a6810cb8a1ceb2e7a7efd20f96384f8d9ba77
+Merge: 9229b73 6697964
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Nov 16 00:24:58 2018 +0900
+
+    Merge pull request #255 from yhatt/upgrade-dependencies
+    
+    Upgrade Electron and some dependent packages
+
+commit 66979644b6838e12863cb5897f2b6b82dca5074e
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Nov 15 23:46:58 2018 +0900
+
+    Upgrade some dependent packages
+    
+    It includes update of Electron to patch CVE-2018-15685.
+
+commit 9229b73d3691b3b123d6906529d89c5017213ec9
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Thu Jun 14 13:22:07 2018 +0900
+
+    Add important notice on release page about vulnerability
+
+commit ad38ec62a2d5098c9ff6d6702a5508df889759bf
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Thu Jun 14 12:59:14 2018 +0900
+
+    Update version and url on release page
+
+commit 70abebb8a18b36b4e9cc4ce87e65d25ac34e0c07
+Merge: e0eb239 e372ee3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 14 12:25:38 2018 +0900
+
+    Merge pull request #229 from yhatt/0.0.13
+    
+    [Security update] 0.0.13
+
+commit e372ee36d4799891d24cb280ade6843d5bd43e3a
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 14 11:03:12 2018 +0900
+
+    v0.0.13
+
+commit 6fe5d05ad293f9a6596644a84b778054bec3ec11
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 14 11:02:47 2018 +0900
+
+    Remove .envrc
+
+commit 45642a243a0752880483cdb62329d32b0da4d517
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 14 11:02:14 2018 +0900
+
+    Prevent running external local script
+
+commit a4a93547f8b36593ea0a36a2ffc889ce5f02bf95
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Jun 13 20:01:48 2018 +0900
+
+    Sanitize the all of link tag but except stylesheet
+
+commit f3e6a1ee6cf0e370f8155ddcc718883653f679a5
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Jun 13 19:31:18 2018 +0900
+
+    Improve packaging on Windows
+
+commit e0eb23971a83af192af072a7ee3de93adaa573b4
+Merge: b21c126 c89643e
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 18:06:24 2018 +0900
+
+    Merge branch 'fix-case-of-filename'
+
+commit c89643e6171e110b3066dd5215a8b9e64f25d81e
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 18:05:41 2018 +0900
+
+    Fix case of resource name from "marp" to "Marp"
+
+commit b21c126fd36e13aecede82e31cfb47d8e47be141
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 12:42:02 2018 +0900
+
+    Update Github Pages, and change version and download URLs on release page
+
+commit e69c0299bc51785afd7fcef6be023710d1460ede
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 12:04:36 2018 +0900
+
+    Update Marp to 0.0.12
+
+commit 0ea5037805e14aa5a10a3a6746f6df6e6a2550f1
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 12:17:17 2018 +0900
+
+    Update copyright years
+
+commit a34a904ff59b3a7a1f3d6def1e10d1b019665b1d
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 12:09:07 2018 +0900
+
+    Update README.md to fix "Mac OS X" to "macOS"
+
+commit 0425436b452e0a53522c180ca5a0c136bb229b98
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 12:04:17 2018 +0900
+
+    Fix the format of package.json
+
+commit 55a61e1371e65bc43bb7d80de317d15fcf092476
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 12:02:44 2018 +0900
+
+    Sanitize HTML import to avoid sniffing local resource
+
+commit 5345312addd25b49dd0db0a4f2b23a028ea850c2
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 11:46:25 2018 +0900
+
+    Update README.md about the future of Marp
+
+commit 7020458df32aa063b9dc8263a7fd04fa2710176d
+Merge: 99af455 ff5c27b
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 11:45:42 2018 +0900
+
+    Merge branch 'upgrade-dependencies'
+
+commit ff5c27b7a9c8ce546b2b14a99fa6bd1bbb2da588
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 11:43:19 2018 +0900
+
+    Fix gulpfile to package release by yarn, and add dependency of appdmg
+
+commit f98ecd9ec7c3e51f74f7d4d390e6c18faccd0a18
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 10:17:53 2018 +0900
+
+    Use the latest LTS node 8.10.0
+
+commit 86b406a431d0c70fb71af75fa8450d9b72216f49
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 09:57:37 2018 +0900
+
+    Revert gulp-coffee to v2.x for using CoffeeScript 1.x
+
+commit af637c0a06be282fc91067ec2585451f17038baa
+Merge: 457363c 99af455
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 09:49:47 2018 +0900
+
+    Merge branch 'master' into upgrade-dependencies
+
+commit 99af4551a64280d25f062455ecad2e63f9393b00
+Merge: 68cbdce de32cbe
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Mar 27 09:49:32 2018 +0900
+
+    Merge pull request #207 from JLHwung/fix-at-rule
+    
+    fix(slide): add @at-root directive to :root selector
+
+commit 457363cfe6f929f94822f5540858423739b6c650
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 09:48:00 2018 +0900
+
+    Upgrade the all dependencies to latest version
+
+commit c50c15b4141144e8fbede5b68084098c033724b6
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Mar 27 09:40:54 2018 +0900
+
+    Upgrade dependencies
+
+commit de32cbec4ab90557a4bb0e92ebc07907b4fabc4c
+Author: Huáng Jùnliàng <i@jhuang.me>
+Date:   Sun Dec 24 23:18:09 2017 +0800
+
+    fix(slide): add @at-root directive to :root selector
+
+commit 68cbdce360c0bab3b42d51bfbe3dc63f420857bc
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Wed Jun 28 14:37:06 2017 +0900
+
+    Add link to JVN (English and Japanese)
+
+commit d3ce9885575b109edfa9959424d4953ae8184a55
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Thu Jun 22 17:27:13 2017 +0900
+
+    Add important notice on release page about vulnerability
+
+commit 59ff6ad4ae68286c9689f447c1b97d9834ca3b4d
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Thu Jun 22 16:52:50 2017 +0900
+
+    Update version and url on release page
+
+commit 087c7c3f02713962fa63f6276660f592c5f4a9b2
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Thu Jun 22 16:01:12 2017 +0900
+
+    Update Marp to 0.0.11
+
+commit 2553e1e23d7923b28fe3768296903afe37b4cda7
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Thu Jun 22 16:08:52 2017 +0900
+
+    Add yarn.lock
+
+commit 587302879e1bacc2e205ca9b06c1c7ac41bd619a
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Jun 13 19:27:51 2017 +0900
+
+    Set Content-Security-Policy to slide.html
+    
+    connect-src and child-src allows only remote resource.
+
+commit 97f857eb25a3c0f03b63ddfadbb7d0a8f65a8a08
+Merge: 6172e4a cdb0352
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 22 16:33:53 2017 +0900
+
+    Merge pull request #184 from koic/change_the_notation_of_github
+    
+    Change the notation of GitHub
+
+commit 6172e4a436f0ee5ec95fa91fbe0e425dfc1cb02c
+Author: Valentin Steinwandter <valentin.steinwandter@exputec.com>
+Date:   Thu Jun 22 09:33:33 2017 +0200
+
+    Remember last used filename (#166)
+    
+    * remember last used path for saving, loading and exporting
+    * remember last filename (without extension)
+    * revert non needed changes
+    
+    It closes #142
+
+commit 3aa724f988e924d9ec8866afc42cc6c3f0894521
+Merge: 58cb153 a1cca31
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 22 16:32:26 2017 +0900
+
+    Merge pull request #160 from germangh/fix-typo
+    
+    Fix typo in example slides
+
+commit 58cb15361e8bdc1f7034797942d29549a5fdc156
+Merge: a2873d8 9091fa8
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 22 16:32:13 2017 +0900
+
+    Merge pull request #134 from SuperV1234/enable_hljs_ignore_illegals
+    
+    Enable `ignore_illegals` in `highlightJs.highlight` invokation
+
+commit cdb03522a14a470dbc7c7f584101d2377933a80b
+Author: Koichi ITO <koic.ito@gmail.com>
+Date:   Sun Jun 11 23:15:08 2017 +0900
+
+    Change the notation of GitHub
+
+commit a1cca31ec2be19f9ba750d1283ce2c298d52cd91
+Author: German Gomez-Herrero <german@innovativetravel.eu>
+Date:   Mon Feb 27 11:01:40 2017 +0100
+
+    Fix typo in example slides
+
+commit 9091fa843beabb200ca55ffd11f4f398e1fc51c6
+Author: Vittorio Romeo <vittorio.romeo@outlook.com>
+Date:   Sat Dec 3 14:26:53 2016 +0000
+
+    Enable `ignore_illegals` in `highlightJs.highlight` invokation
+
+commit a2873d8c3869ebeaf2623d2ed1400af8d7d872c0
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Nov 7 00:52:25 2016 +0900
+
+    Release Marp 0.0.10
+
+commit bca0e352ff3bbb04b94567f4aaf975e04ae5b362
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Nov 6 18:13:23 2016 +0900
+
+    Update Marp to 0.0.10
+
+commit dc1634c78430f70921ca0173c20ddb6b13735d93
+Merge: ea620c8 e039f38
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Nov 6 17:58:20 2016 +0900
+
+    Merge pull request #113 from yhatt/correctly-err-handling-on-writefile
+    
+    Fix #94: Correct the error handling when writing file
+
+commit e039f384e2f171c9c8f2548411985cfd95912663
+Merge: ebd7cfc ea620c8
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Nov 6 17:35:26 2016 +0900
+
+    Merge branch 'master' into correctly-err-handling-on-writefile
+
+commit ea620c8ae86bfb72e779a38cc59798b5a7bf8648
+Merge: 2369b73 86168ba
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Nov 6 17:33:07 2016 +0900
+
+    Merge pull request #114 from yhatt/fix-building-electron-version
+    
+    Fix building electron version
+
+commit 2369b730bd4ca2e441978636d8f4a8fa82893e5f
+Merge: b461f09 b6e9b3f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Nov 6 17:32:45 2016 +0900
+
+    Merge pull request #112 from yhatt/fix-cancel-confirmation
+    
+    Fix #104: Avoid app termination unexpectedly on Linux
+
+commit b6e9b3f06392e2f578abeb8b95333a13bfeb695e
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Nov 1 21:18:29 2016 +0900
+
+    Improve code of setTimeout as one line
+
+commit 86168ba638d79f7f8a27c63167c9631015a548a9
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Nov 1 18:29:07 2016 +0900
+
+    Rollback Electron version from 1.4.4 to 1.3.8 (Latest update)
+
+commit 5998ed4e240ecc4bd322cbaf3581ea89c119b15b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Nov 1 03:01:44 2016 +0900
+
+    Fix gulpfile.coffee: Wrong way for getting Electron version
+
+commit 22e9ea5b141fa0793f247fff020bb668289f708d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Nov 1 02:10:44 2016 +0900
+
+    Fix #104: Avoid app termination unexpectedly on Linux
+    
+    - Wrap triggers of internal command with setTimeout
+    - Set cancelId as "Cancel" command
+
+commit ebd7cfcdf2dcae156a12ac7270e1c4afc6ac34ff
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 18:13:29 2016 +0900
+
+    Fix the error handling at writing the file (Resolve #94)
+
+commit b461f09678b7a5a4371cfeeeca55de956462e439
+Merge: f9a7725 899c021
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 05:20:31 2016 +0900
+
+    Merge pull request #100 from yhatt/release-v0.0.9
+    
+    Release v0.0.9
+
+commit 899c02166c6ef0e341caab92acd1094430c30703
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 03:41:19 2016 +0900
+
+    Update to v0.0.9
+
+commit 4291dc4b6e5ea349bc75367e4f8cea4378fb89ac
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 03:39:40 2016 +0900
+
+    Update download link of GitHub pages
+    
+    /w adding new feature
+
+commit b37eb29dcf2becd01ff8f6e297f9859318fa3ebb
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 03:30:06 2016 +0900
+
+    A bit of change to example.md for the visibility
+
+commit f9a7725431179f9d4a64c453e5fb95c920d880ec
+Merge: 69967af 24dc480
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 03:25:05 2016 +0900
+
+    Merge pull request #99 from yhatt/fix-twemoji-skintone
+    
+    Fix #92: Fixed twemoji in offline and SVG rendering
+
+commit 69967afe06907a9d8b8120dbdcc5aee3fe6ec01a
+Merge: 9aa661b d870466
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 03:21:24 2016 +0900
+
+    Merge pull request #54 from will-hart/feature/update_examplemd
+    
+    Update example.md with new 0.0.9 features
+
+commit 9aa661b7495fa6b11f4bb239fd44f40442ce50e3
+Merge: 668fa75 51fb077
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 03:10:10 2016 +0900
+
+    Merge pull request #93 from yhatt/internationalize-font
+    
+    Remove Japanese font definition (Fix #85)
+
+commit 24dc4807cd3a7abb89f3741d26bf89e100c56c60
+Merge: 177d646 668fa75
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 02:25:52 2016 +0900
+
+    Merge branch 'master' into fix-twemoji-skintone
+
+commit 668fa75c4a388ec48a795e4835e1f19b149cf2b8
+Merge: 93d0331 25691c1
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 02:25:29 2016 +0900
+
+    Merge pull request #98 from yhatt/npm-start-script
+    
+    Remove gulp's run task, and use npm script to run
+
+commit 177d64622e75698846085f25aa61e943f1e69892
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 02:22:07 2016 +0900
+
+    Remove twemoji images hosted by Marp
+
+commit 7fedb3387b095b805c4db8023167d819038fed5d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 02:17:16 2016 +0900
+
+    Changed the dependency of twemoji: Getting from GitHub repository directly
+    
+    It would be placed emojis svg files to node_modules/twemoji/2/svg/*.svg
+
+commit 25691c1130d3a5d7744852c3512df78c6ab7cbd5
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 01:39:55 2016 +0900
+
+    Fix parsing arguments to avoid fatal issue: Packaged binary of Windows eating up memory
+
+commit 1bc2f53eac4e97b9d03b72decd38cdd4664e290a
+Merge: 21b1b59 93d0331
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 01:09:09 2016 +0900
+
+    Merge branch 'master' into update-electron-to-1.4.3
+
+commit 93d03313e4d18de58dd2385857ed537440388d12
+Merge: 71ed407 fded5e9
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 01:00:22 2016 +0900
+
+    Merge pull request #97 from yhatt/fix-insert-image-path
+    
+    Fix image path contains space by inserting D&D
+
+commit 21b1b59fc4cf02cb4b6586cef3351c9df5146963
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 9 00:49:14 2016 +0900
+
+    Use npm script instead of gulp's run task, to avoid gulp-run-electron's dependency error
+    
+    /w removing electron.bat (please use `npm start`)
+
+commit 4bc727f764ff247ed94bdbfbec7b548c1abce457
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Oct 8 19:54:27 2016 +0900
+
+    Update Electron to 1.4.3
+
+commit fded5e96321be56b3a574af29d4d48e245f56173
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Oct 8 12:12:28 2016 +0900
+
+    Use replace method for user-readability instead of encodeURIComponent
+
+commit 643692d959e4fd15befc7d4eb4fb2387b3e61df3
+Merge: 886ede7 f4e5b65
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Oct 8 11:49:47 2016 +0900
+
+    Merge branch 'update-electron-to-1.4.3' into fix-insert-image-path
+
+commit f4e5b65af893cf77e93ac9db5e3f0815e6026c33
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Oct 8 20:14:49 2016 +0900
+
+    Update electron-packager to 8.1.0
+
+commit 886ede7f41a6dea8c50e93d005660b1a67e10a61
+Merge: 31f21a3 71ed407
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Oct 8 19:53:43 2016 +0900
+
+    Merge branch 'master' into fix-insert-image-path
+
+commit 31f21a3c324b1ccdc4a616e9ddf9308eb5b921c2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Oct 8 19:50:17 2016 +0900
+
+    Fix insertImage encoding file path by encodeURIComponent
+
+commit 51fb0770ac4bd03fec0bab0dd3a846ed5db5c05c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 03:37:49 2016 +0900
+
+    Remove Japanese fonts from initial font of editor
+
+commit 93d4177690d59c88b50f6ffecfdd4d7aab81e57f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 03:25:29 2016 +0900
+
+    Remove Gaia theme's Japanese font families
+    
+    /w emoji support by Apple and Microsoft fonts
+
+commit e1a701dc8f4add4c64366f433a9169f46a578540
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 03:21:21 2016 +0900
+
+    Stop overriding font-family in default theme
+    
+    /w speficied update of github-markdown-css
+
+commit 71ed407fa2392d3f3da3440db53934316e7b1401
+Merge: e5bfdfa 2c089a8
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 02:42:19 2016 +0900
+
+    Merge pull request #91 from yhatt/update-electron-to-1.4.1
+    
+    Update Electron to 1.4.1
+
+commit 2c089a823995c30d629f3d74bfed8f8b3e23aea2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 02:36:24 2016 +0900
+
+    Improve Windows detection on the redo command accelerator
+
+commit 75d4b7ac2aa0cdfe9e66529c5796d9cce00a2749
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 02:18:43 2016 +0900
+
+    Windows: Use Ctrl+Y as the redo accelerator
+    
+    See: https://github.com/electron/electron/pull/7236
+
+commit ae6d3fbf4449225d3e59fb7e6cd2930a7419c0ee
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 01:58:51 2016 +0900
+
+    Update Electron to 1.4.1 with renaming package name
+
+commit e5bfdfaf610dce9cd0cbbe6080fe10d840129717
+Merge: 1451e96 06ac0b3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 00:05:54 2016 +0900
+
+    Merge pull request #90 from yhatt/move-github-pages-to-docs-folder
+    
+    Move Github Pages from gh-pages to master
+
+commit 1451e96fc89948b90144ee5a0a739ed905e440dc
+Merge: 6b9effd 331ade8
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Oct 3 00:05:48 2016 +0900
+
+    Merge pull request #88 from abunsen/master
+    
+    Reflect starting point for Custom CSS in ReadMe
+
+commit 06ac0b3f243180f9ba9c31fed34379244dbd056b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Oct 2 23:27:48 2016 +0900
+
+    Move Github Pages from gh-pages to master
+    
+    - Update Ruby version to 2.3.1
+    - Update Gemfile to use github-pages
+    - Improve direnv settings
+
+commit 331ade8a85f247897099aa2b8f02ad0f08318bfa
+Author: Auston Bunsen <auston.bunsen@gmail.com>
+Date:   Mon Sep 26 14:17:54 2016 -0400
+
+    Update README.md
+
+commit 6b9effd0c0e3072fef3e96476beacde748d975a3
+Merge: 8c73948 351c9b7
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Aug 13 22:27:48 2016 +0900
+
+    Merge pull request #64 from yhatt/improve-license
+    
+    Improve licenses
+
+commit 8c73948a907c58eb197058390e2911e020ba515c
+Merge: 0c17f73 dabdb2b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Aug 13 22:27:22 2016 +0900
+
+    Merge pull request #75 from will-hart/feature/editorfont
+    
+    Read editor font family and font size from config not CSS
+
+commit 0c17f733ee563903a8fc384faa01e38b88186e6a
+Merge: bb03bc6 90b3cca
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Aug 13 22:27:06 2016 +0900
+
+    Merge pull request #65 from jackycute/master
+    
+    Fix lang attribute of the slides html
+
+commit dabdb2beed83a62edb9f8da5240ba4697f48f95e
+Author: Will Hart <hart.wl@gmail.com>
+Date:   Sat Aug 13 10:56:10 2016 +1000
+
+    Read editor font family and font size from config not CSS
+
+commit d870466cd83134cc45ea7b547278ef343e10de56
+Author: Will Hart <hart.wl@gmail.com>
+Date:   Wed Aug 10 16:14:23 2016 +1000
+
+    Remove duplicate line
+
+commit 90b3cca9a7fcd9383d09325e0b2812cf0617d3dc
+Author: Max Wu <jackymaxj@gmail.com>
+Date:   Mon Aug 1 17:33:11 2016 +0800
+
+    Fix lang of the slides
+    
+    should default using en, because the lang attribute will affect the punctuation of Fonts
+
+commit bb03bc67d7bdfe24af12bd876bd089e5c8a88ad4
+Merge: e6cae86 e85cd06
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jul 31 21:29:37 2016 +0900
+
+    Merge pull request #62 from yasumichi/bundle-twemoji
+    
+    Bundle images of twemoji (resolve Issues#61)
+
+commit e85cd06a537b751a253aed698afd647abf4fca0e
+Author: Yasumichi Akahoshi <yasumichi@vinelinux.org>
+Date:   Sun Jul 31 21:12:56 2016 +0900
+
+    fixed from https://github.com/yhatt/marp/pull/62#issuecomment-236370692
+
+commit 351c9b7e1356b813f8513f847471fc95372d7587
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jul 31 00:51:36 2016 +0900
+
+    Add LICENSE file in release package
+
+commit 7752a0da6cdd295704a21995efcc22b67ec88209
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jul 31 00:49:31 2016 +0900
+
+    Remove license of unused library
+
+commit e6cae866e1b343df8ee5227d57a020d275b0fccb
+Merge: e088497 cb4617f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Jul 30 21:14:20 2016 +0900
+
+    Merge pull request #53 from yhatt/reopen-with-encoding
+    
+    Implement "Reopen with Encoding" command in File menu
+
+commit 1a3f9bbbc17a7cd133b1f8ecbc97c394b33d08ea
+Author: Yasumichi Akahoshi <yasumichi@vinelinux.org>
+Date:   Sat Jul 30 01:17:01 2016 +0900
+
+    change twemojiBase from relative path to absolute path
+
+commit 5bb330384b4a5bf9650ee188cef5ef071e7b1ec2
+Author: Yasumichi Akahoshi <yasumichi@vinelinux.org>
+Date:   Sat Jul 30 00:31:24 2016 +0900
+
+    add license of twemoji grapchics
+
+commit b3c3ada5cb9f463a7bfaa98f932faafde8db5495
+Author: Yasumichi Akahoshi <yasumichi@vinelinux.org>
+Date:   Sat Jul 30 00:20:15 2016 +0900
+
+    bundle images of twemoji (resolve #61)
+
+commit c9c7177a1bb0aeaf9a5d319ceab129fda6d06635
+Author: Will Hart <hart.wl@gmail.com>
+Date:   Tue Jul 26 08:01:31 2016 +1000
+
+    More about background images
+
+commit 3bb4a309f435d1cffde7b9c1fd69b9c89d4477c6
+Author: Will Hart <hart.wl@gmail.com>
+Date:   Sun Jul 24 17:28:07 2016 +1000
+
+    Update example
+
+commit cb4617f9ad7f9b3e9820125764c5524d0ecb7fc6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jul 24 00:41:28 2016 +0900
+
+    Implement Reopen with Encoding command in File menu
+
+commit e088497887a9bc409eb4ea2c6323015773a1a26d
+Merge: a688d83 a4a69dc
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Jul 23 22:10:53 2016 +0900
+
+    Merge pull request #49 from yhatt/improve-resolving-relative-path
+    
+    Fix #34: Relative path support improved by using base tag
+
+commit a4a69dc30723b1fb18e904a798defe13e791d166
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Jul 23 20:31:29 2016 +0900
+
+    Fix resolving aboslute path in Windows
+
+commit 2dab7115a81cc77bc1e21803baee446cd131fde3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jul 22 23:56:46 2016 +0900
+
+    Fix Gaia theme example's relative image path
+
+commit 1e66f8de644de4464c37bfed061adae9e6482ef5
+Merge: ae82090 a688d83
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jul 22 23:55:34 2016 +0900
+
+    Merge branch 'master' into improve-resolving-relative-path
+
+commit 7eaaa3de11b34eccab24899042c7d4a81a415eaa
+Merge: 7a03713 a688d83
+Author: Will Hart <hart.wl@gmail.com>
+Date:   Fri Jul 22 23:12:09 2016 +1000
+
+    Merge pull request #1 from yhatt/master
+    
+    Update master branch from yhatt
+
+commit a688d831d8e7183d0ff23f4c45c5b1c9fee25df2
+Merge: 7a03713 74ada4f
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Fri Jul 22 20:15:35 2016 +0900
+
+    Merge pull request #45 from will-hart-feature/katex with squashing (Close #45)
+    
+    Bundle KaTeX CSS files
+    
+    This is not ideal, however the files are not currently included in the npm install.
+    See https://github.com/Khan/KaTeX/issues/148
+
+commit 74ada4f19d06fc04d5c64d9430b0d0f87e1a1898
+Author: Will Hart <hart.wl@gmail.com>
+Date:   Thu Jul 21 20:19:32 2016 +1000
+
+    Bundle KaTeX CSS files
+    
+    This is not ideal, however the files are not currently included in the npm install.
+    See https://github.com/Khan/KaTeX/issues/148
+
+commit ae82090a72bb53c06a574c6896f96fcc968a9edb
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Fri Jul 22 13:03:56 2016 +0900
+
+    Fix #34: Relative path support improved by using base tag
+
+commit 7a03713fb6c84611289abf0b0e59469da2df3748
+Merge: 3af6118 9b3974b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Jul 20 21:02:30 2016 +0900
+
+    Merge pull request #40 from yhatt/fix-centering-behavior
+    
+    Improved detection behavior for classes with "only-" prefix
+
+commit 3af61184da001bdee8763b2fef8a5862c3062266
+Merge: e0f218e 52c9119
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Jul 20 19:06:34 2016 +0900
+
+    Merge pull request #42 from alexander-shvets/patch-1
+    
+    add brew cask installation note
+
+commit 52c9119220d3021c61168e9038154c28c31a31bb
+Author: alexander-shvets <alexander-shvets@users.noreply.github.com>
+Date:   Wed Jul 20 12:43:33 2016 +0300
+
+    add brew cask installation note
+
+commit 9b3974b826173e2a4b1d0331a5b80b07896af4ec
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Jul 19 18:07:03 2016 +0900
+
+    BugFix #18: Improved detection behavior for classes with only- prefix
+    
+    Exclude metadata contents from target elements of determination.
+
+commit e0f218e2c6f2114a6df478ca3ebd8722f8f43165
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jul 18 02:08:48 2016 +0900
+
+    Update to Electron 1.2.7, electron-packager 7.3.0
+
+commit fae10b9828c490adedc6d4fd8d946c60a1e5885f
+Merge: 891d989 81c62be
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jul 17 17:51:12 2016 +0900
+
+    Merge pull request #21 from brandly/patch-1
+    
+    create MdsWindow only once app.isReady()
+
+commit 891d9898c2af1947985defcad36afd7e081fabd2
+Merge: 36f2cb0 9b47d97
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jul 15 22:14:41 2016 +0900
+
+    Merge pull request #36 from radarhere/patch-1
+    
+    Fixed typo
+
+commit 9b47d978d45fd09327ee5a7dc9aece095f96e741
+Author: Andrew Murray <radarhere@gmail.com>
+Date:   Fri Jul 15 22:08:32 2016 +1000
+
+    Fixed typo
+
+commit 36f2cb0e4d24a22d832d156a8bf5e6df5d0b728c
+Merge: bde2f44 8b33f93
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jul 15 17:13:10 2016 +0900
+
+    Merge pull request #9 from btbytes/patch-1
+    
+    reword example slides for clarity.
+
+commit 81c62bebe94026dbb2eb6cb02fdd531c51cd5c39
+Author: brandly <brandly13@gmail.com>
+Date:   Wed Jul 13 11:53:55 2016 -0400
+
+    create MdsWindow only once app.isReady()
+
+commit 8b33f93a6675d5521ce8b0e744d537b93f11c352
+Author: Pradeep Gowda <pradeep@btbytes.com>
+Date:   Tue Jul 12 13:00:05 2016 -0400
+
+    correction.
+
+commit 1015b165dc54f271c9ccdc20cb11c04b5bf7d1b5
+Author: Pradeep Gowda <pradeep@btbytes.com>
+Date:   Tue Jul 12 12:58:39 2016 -0400
+
+    reword the example slide for clarity
+
+commit bde2f44de0b1d1f86f94aef6a64f7705e039b729
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Thu Jul 7 09:23:03 2016 +0900
+
+    Update Electron to 1.2.6, electron-packager to 7.2.0
+
+commit 85ddaaa07c943cb4e22fee049caf2c01e60d158d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Jul 2 14:38:52 2016 +0900
+
+    Add prerender directive to avoid crash with large size background
+
+commit d18bead10cd0d8ec68fb5a19666c11c51dda43ac
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 27 00:38:52 2016 +0900
+
+    Remove unused argument
+
+commit 6a8a433f071127bb6fedd9e66d06c99bf36a1602
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 27 00:22:50 2016 +0900
+
+    Support footer directive
+
+commit 5b65d77ced11e62ef7021900f567a4531274d082
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 26 23:34:08 2016 +0900
+
+    Add supports resizing background image with using percentage scale
+
+commit f06f632312dcbd4f5ff3bb1663750afd889e98d1
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 26 23:02:55 2016 +0900
+
+    Support background image with "bg" command (like Deckset)
+
+commit 44166cb840b108d1533d49f04a7b6e11239949c9
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 26 22:58:32 2016 +0900
+
+    Use "quit" and "togglefullscreen" role on menuitem
+
+commit dd84e122d0ce98be28fc765537ea598b467446d6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 26 22:55:03 2016 +0900
+
+    Update Electron to 1.2.5, electron-packager to 7.1.0
+
+commit 6e02fb46b570ef2d0e3ccd8c21e70e556cbdc3c3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 26 22:35:57 2016 +0900
+
+    Add delete command to edit menu and context menu
+
+commit 59186fb8e55fdd1ae44aa68be4711172f68d88a2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Jun 21 23:58:56 2016 +0900
+
+    macOS: Add dmg archive background for Retina display (@2x)
+
+commit ebd74170551db0b8c7aa5d0e7c4ea0c3b2357e74
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Jun 21 23:22:07 2016 +0900
+
+    Use ready-to-show event for showing window gracefully
+
+commit feb511682d327424482ea046b304c43f173f5f7c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Jun 21 22:44:30 2016 +0900
+
+    Update Electron to 1.2.3, electron-packager to 7.0.4
+
+commit 49618d109fdeb0a225944e5f5f6daaba2f40870a
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Jun 21 22:40:21 2016 +0900
+
+    Set version to 0.0.9pre
+
+commit f7c790d4bf23268a8cb80817749d1a91ab3bb068
+Author: Yuki Hattori <yuki.hattori@speee.jp>
+Date:   Tue Jun 14 17:56:30 2016 +0900
+
+    Set version to 0.0.8
+
+commit 7fc5edb138054d031fa1d6e981926a501a9af55b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 10 11:36:50 2016 +0900
+
+    Migrate for jQuery 3.0.0
+
+commit 3a27af7f1645a92ad2293e4bbb3e035acda75834
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 10 11:10:44 2016 +0900
+
+    Upgrade major version of jQuery to 3.0.0
+
+commit 76f05baf2c27ca9d783925a5fb1d0b11b17bfdb2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 10 00:01:18 2016 +0900
+
+    Refactor MdsMarkdown
+    
+    - Improve watching resources
+
+commit f22ac0aa9afba1bd3862ab47736a26566bd370ef
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 13:11:08 2016 +0900
+
+    Splited slide's component CSS to slide.sass
+
+commit f027236efb98a620d388dbaca56a02da6077d3fe
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 13:02:14 2016 +0900
+
+    Add timeout for loading resources on exporting PDF
+
+commit c8eaf9ff6df40fd4fd27c01dc41ea1d1d35f3564
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 12:56:51 2016 +0900
+
+    Add overflow: hidden on exporting PDF
+
+commit 17c3f96cf60b0ed90a21609ca1a492b4acdeccea
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 12:47:27 2016 +0900
+
+    Preloading resources on exporting PDF
+
+commit 0c9b599dc5580baddaa8d5c6995633f0e3763abc
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 09:25:01 2016 +0900
+
+    Bugfix: Hidden fonts is not rendered on exporting PDF
+
+commit 517be6d74ef633e9a85b1487c9bd64ff467c478f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 08:07:47 2016 +0900
+
+    Use Meiryo instead of Meiryo UI as Gaia's font
+
+commit ee3aef49a817e14fd15a593f204758735b8ace31
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 07:50:10 2016 +0900
+
+    Set Gaia's monospace font
+
+commit 355eb1e0ed647921be1aa8d2ed8648664d93f6d3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 04:07:53 2016 +0900
+
+    Improve Gaia theme's code block background
+
+commit bffb3db762c525622571225f5733ef16481573f1
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 03:19:11 2016 +0900
+
+    Update example.md
+
+commit 5b3402327e321d118a41f27508c686690c7c6ae2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 03:13:21 2016 +0900
+
+    Fix lazy load of MdsWindow's default option
+
+commit 25e73ffcd2e5abf49912e090a3603ad2f7fadf04
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 03:07:13 2016 +0900
+
+    Update Electron to 1.2.2
+
+commit 9744cfcf7738dba86d341e82482bcd7c0054242f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 02:51:46 2016 +0900
+
+    Implement menu of View -> Theme
+
+commit 491747dc58322bf5ed302a0f1fce56bdcd44ea2b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 01:29:57 2016 +0900
+
+    Apply menu management of per window in Windows/Linux
+
+commit 8d2046c93050957d11048673f04c08dd3a6fad58
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 00:47:46 2016 +0900
+
+    Apply menu states per window
+
+commit 028054242cf75aac56a37c86718bf9d93972ee7c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Jun 9 00:02:39 2016 +0900
+
+    Improve generating menu template
+
+commit 910abc4e3a996e57085902666a522a72bdf4e7ba
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Jun 8 23:57:18 2016 +0900
+
+    Bugfix: Result of "Clear Recent" command is not stored
+
+commit 1a4d5a333a96cbc7b67b31ced192e22c84bb722f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Jun 7 16:39:20 2016 +0900
+
+    Add Access key of help menu label
+
+commit 3c8260641f1437744184fdb73ab86826ef981606
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Jun 7 00:22:38 2016 +0900
+
+    Define themes to avoid existance check on asar packing
+
+commit 1f939ca421b16dd34f59cd855a2cdf1e7e3730ac
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 23:37:48 2016 +0900
+
+    Fix opening examples / parsing themes from asar archive
+
+commit 2b5a9e2a4641502d3d78bb85ccaf18e485b5e93e
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 22:25:16 2016 +0900
+
+    Ignore to add recent files from opening by help menu
+
+commit f608d3fee25f0c6a44ff9bf70d5a1466941d6448
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 22:17:52 2016 +0900
+
+    Add Help menu
+
+commit 5684d33e66b8f888507da6441f6dabb384602b75
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 22:06:13 2016 +0900
+
+    Add Gaia example
+
+commit 178dd0793149db92499d59824ff98a0bcfd1f689
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 21:51:48 2016 +0900
+
+    Update example.md: $theme / template directives
+
+commit 89bb0129c4adaf2ac4751de2e5611b1365d72bbc
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 21:13:33 2016 +0900
+
+    Rename default theme
+
+commit e246cc3dd948461e433dd0deace1f98a922236f3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 21:13:13 2016 +0900
+
+    Add Gaia theme
+    
+    - Add supports template page directive
+
+commit a05c8e92ab994cb2456e974ca94579793072c340
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 21:12:17 2016 +0900
+
+    Improve first/last element margin with nesting (for correctly centering)
+    
+    - Add only-blockquotes class
+
+commit cf699412fa2c585f8487110c8e45a45a354e9e72
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 01:27:41 2016 +0900
+
+    Add image's custom scaling like Deckset
+
+commit f2c2358635cff29d6e44096fdba56410796bfd56
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 00:32:16 2016 +0900
+
+    Fix rendering preview of slides on switched theme
+
+commit af32864155247b570dea49f8b68b493d1cfe9ddd
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Jun 6 00:31:11 2016 +0900
+
+    Bugfix: Window can zoom with pinch or double-tap on OSX
+
+commit 8e85a7ecdaa207cf8464194355a24de4a029c247
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 5 22:44:07 2016 +0900
+
+    Support changing theme by global directive
+
+commit b44e1867314cc824f983f7a25a982c2dbaf9b7e5
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 5 21:37:15 2016 +0900
+
+    Componented file existance check to mds_file
+
+commit 12e3cbe0382b5ce6db7e72187fcd58cb4f0bbf11
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 5 14:14:28 2016 +0900
+
+    Add image width limit, and image centering option
+    
+    - Fix not applied headings-only style exclude current page in 1:1 slide view
+
+commit a849593e50e80243b19f6a054715e965049bd739
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 5 13:48:01 2016 +0900
+
+    Convert page directive to data scheme for accessible from CSS
+    
+    - Theme: Add only-headings class for styling title/section page
+
+commit 4ae65afbec3ccd66972df0487186d852494f631d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 5 12:03:39 2016 +0900
+
+    Use npm scripts for running task
+
+commit 63fbc557df03112dd110e0fb98141f7ad5c2f32d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 5 11:57:27 2016 +0900
+
+    Improve Electron window flashing on initialize
+
+commit 7eb7be649b6140424bd499d64d7600e7f84f5584
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Jun 5 11:54:21 2016 +0900
+
+    Improve MdsManager to return instance
+
+commit f4cafedae95236e0962bd81c194ca4902a6173df
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Jun 4 03:41:51 2016 +0900
+
+    Implement yhatt/mdslide#17: Context menu on textarea
+
+commit 91dad3269abd215a0546f77be0a5bbbeb48462f6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Jun 4 01:25:41 2016 +0900
+
+    Improve styling to slide webview
+
+commit ee957252bcd83dc38fffd5db4a4237dc3ac5da82
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Jun 4 01:12:16 2016 +0900
+
+    Set version 0.0.8pre
+
+commit 6cea6ce8b245c362e1d92b33eedca68607f038e0
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 21:31:17 2016 +0900
+
+    Set version 0.0.7
+
+commit bd22cde49be3ece3715bb738a88789a05992b073
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 19:57:43 2016 +0900
+
+    Fix on Mac: Not shown page infos on initialized window
+
+commit af2248399ecd2cc234bb321e491bd23898295492
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 19:19:32 2016 +0900
+
+    Update example.md: Add Directive examples
+
+commit 7c539a02c8342b10faa698848d10f9bdf0ff1b26
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Apply the MIT License correctly
+
+commit 7affae20c763ecf508cebd994b0b61822e5a7180
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Support opening many text encoding other than UTF-8 (with jschardet and iconv-lite)
+
+commit 5b7effd6f9190f53ea85de65838bbf031f9d6718
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Support D&D image to insert
+
+commit 1ec9671ae7e06dd134a45292155a8a8fb713a675
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Fix resolve absolute image path
+
+commit 8ef702634a42223d21f8c0cb8310dd197c19cb8a
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Fix image path resolve with multi-byte chars
+
+commit f4a0418d7c5731571d8d95fe50ff10d670a5ee22
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Improve Slide CSS: Use flexbox to align vertically
+
+commit fb9f171da51128695c0d8895a50affba8cf91d70
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Fix injection blank page
+
+commit 6b77c88162b3ecdc837266776f47bea969ae6810
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Add size global directive to set width and height
+    
+    - Set default slide size to 4:3 (1024x768, Default of PowerPoint)
+
+commit 40ef0fbff5635188d503a48db23850d6dea1bee4
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Add global directive to set slide width and height
+
+commit 30a06c8484468eaa0cb4d7207ac294a83ff27178
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Improve PDF export with custom size
+
+commit 6a1bc32847d56b52a4561c6c0de7ac827b02d82a
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Replace and improve slide size calculation from Sass variables to CSS variable
+
+commit bd9e718633bc4f91b3115afc2b3631bfe8dbfe06
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Improve blinks on initialize
+    
+    - Improve yhatt/mdslide#20 injection timing
+
+commit fb56d7bd9e761f267847cec9aafded3afd91cb4a
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Update to Electron 1.2.1 (Fix to work jQuery on slide webview)
+
+commit a8ee2752a62919f113e55ea9c4bf3ede75d14b75
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Improve Markdown setting directives: Apply temporary setting per page
+
+commit eee5688985cebd0b0abc39a11dcf03b6ba2f101f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Improve markdown setting: Per page setting and inherit to following pages
+
+commit 1dfe4c684b8096c58f6ce8508e7d3db250b9f181
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Implement page_number / page_number_exclude_title setting with using Markdown comment
+    
+    - Improve MdsMarkdown class
+    - Improve slide JavaScript
+
+commit 19557eb44ec3fa375f15168ab2385d13989319bd
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Jun 3 17:11:06 2016 +0900
+
+    Set version 0.0.7pre
+
+commit e3ef92a1cc6063ef5720e15224663a201002c97c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon May 30 01:36:11 2016 +0900
+
+    Update README.md
+
+commit db4438f8b73d21cdf8f6bfedb5d69f8869802d62
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 21:40:59 2016 +0900
+
+    Set version 0.0.6
+
+commit 62eac34b0b45737397ba34b85f592d585443c727
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 21:40:27 2016 +0900
+
+    Improve darwin archiving task
+
+commit 7950620741ecabb2184b80fc317d1ac8ae3ab885
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 21:10:57 2016 +0900
+
+    Update screenshot.png
+
+commit 6c9984c69d4b5b7441553860a2fe811a0e25cab6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 20:50:51 2016 +0900
+
+    Update example.md: Unify app description
+
+commit d44a8716c0e544194ce2efc6882854d36dec1426
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 20:46:08 2016 +0900
+
+    Update package.json (electron-prebuild moved to devDependencies)
+    
+    - README.md update: Old repository's link
+
+commit a1b9406375ada25fd021241058c9e52ddda4857b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 18:20:37 2016 +0900
+
+    Rename from mdSlide to Marp
+
+commit eca5bd3a249fcb3dafc11d94d7e2f96454eb60ef
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 17:07:47 2016 +0900
+
+    Replace throbber with brand new icon design
+
+commit 47759eb66d5494f183fc83d3508e0f2636cf9283
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 29 01:53:52 2016 +0900
+
+    Improve mdSlide icon: Apply material design
+
+commit c4cb79ad534fbfc06a2b39300b827756a724ad3e
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 17:04:49 2016 +0900
+
+    Implement #13 completely: Save window size states
+    
+    - Improve slide js
+
+commit 8aa3744992151a44abca6122201edb17b955b81b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 15:41:14 2016 +0900
+
+    Restore Electron to v1.1.x
+    
+    - Not worked preloading to slide (require jquery)
+
+commit c207137a0af85ee515e320dc938ba24a4dcf229d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 15:11:47 2016 +0900
+
+    Enable webview web security
+
+commit 4d145f54cc54a0c8b5749903e1704abbe60947e6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 14:45:27 2016 +0900
+
+    Update gulp-run-electron to 2.0.0
+
+commit c0f5a369f7c21e665117e3f7074b32eab6bbadd8
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 14:22:41 2016 +0900
+
+    Update Electron to 1.2.0
+
+commit 6fb785bbd6e1b1cda156ab1428e8204515d310f7
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 14:06:39 2016 +0900
+
+    Componented slide theme CSS with markdown view
+
+commit e740c68c6b759e6705b5a78e3782d9804b0225a2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 13:10:56 2016 +0900
+
+    Modify link click event in slide: e.target -> e.currentTarget
+
+commit 58963656f8a556ea7266d79c56d275e2e2f9d591
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 12:58:54 2016 +0900
+
+    Implement #3: Supports relative image path from md file's folder
+
+commit 679f8c002159086e32a33c0386b2bf361ae5c498
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 12:57:21 2016 +0900
+
+    Improve emoji rendering
+
+commit b1537f36254828a7b692658935e93ee62b035d0e
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 07:13:47 2016 +0900
+
+    Add page number styling
+
+commit 38ac7e10f3fe758b72d4f540a9abe2cf53417169
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 06:26:44 2016 +0900
+
+    Improve EditorStates class in index.coffee
+
+commit 4126b1cf12032e7e7d7745a0d2c02869bf3493bb
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 05:35:00 2016 +0900
+
+    Improve external link handling
+    
+    - Turn off webview's disablewebsecurity attribute
+
+commit 54d980936bffabcbfdfcbe3c418e4dbad179632d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 02:19:57 2016 +0900
+
+    Splitted vertical centering CSS to theme
+
+commit fddc5628a4408456ebb59fe75caeb4849b19e95c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat May 28 00:54:37 2016 +0900
+
+    Fix slide preview scaling
+
+commit 2da03a111cd96519834839665ff5e730ed4b6b87
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri May 27 23:57:28 2016 +0900
+
+    Improve preview rendering with CSS variables / calc
+
+commit ad51d3db52840e2146d0d39a39894f254b264555
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon May 23 23:12:56 2016 +0900
+
+    Improve requirement node modules with using destructuring assignment
+
+commit 6ad6a4ef8a260d3228510eff45b2dab816182779
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon May 23 23:09:48 2016 +0900
+
+    Set version v0.0.6pre
+
+commit ce880c3930eb9ff364177287b2cd595839bc6bc3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 23:02:20 2016 +0900
+
+    Set version 0.0.5
+
+commit eb15f8c78e5b529c4ff44533bb281aa2e2f4f917
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 22:45:43 2016 +0900
+
+    Bugfix: Slide height modified to avoid injecting blank slide per pages
+    
+    - Remove not using element/style on slide
+
+commit 0dbeddeb25c35767372e56f2416457dc46a57d86
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 22:41:53 2016 +0900
+
+    Set version v0.0.5pre
+
+commit a0fd6ccd6de0353e6cd02a05fda69b1d9bb450e6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 06:37:51 2016 +0900
+
+    Set version 0.0.4
+
+commit 8b463da541ec36a0b118b29942523c64142dec41
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 06:06:51 2016 +0900
+
+    Improved slide size & detection
+
+commit fd0022e3b9b07866e1ab5305b20749216ff76f24
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 05:44:55 2016 +0900
+
+    Bugfix OSX: Open Recent > Clear Menu is not working while opening no documents
+
+commit a434f6270a73c3f65604ec793ab6a940b0c644ae
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 05:36:27 2016 +0900
+
+    Disable preview mode switch on initialize
+
+commit ecf4facdc0279a7fde42aa4eaa49bef90e7a6b22
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 05:35:51 2016 +0900
+
+    Improve splitter initialized timing
+
+commit 39e9fba2c846eb716a904602a956d644246893b1
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 05:06:55 2016 +0900
+
+    Improve archive:darwin task
+
+commit 0573f18638f880e7e4d3f0a185c2b33b5c288ae3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 04:51:04 2016 +0900
+
+    Update README.md
+
+commit be5b8b53e262c6bc9d1c73386dbab88783ac4ac7
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 04:40:43 2016 +0900
+
+    Improved gulp tasks: Use appdmg to archive darwin package
+
+commit b7e181abe0adb3d193af14283c591025c337ba11
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Mar 5 04:05:18 2016 +0900
+
+    Improve packaged dmg on OSX
+
+commit 210042e0f6160515c6a4de0b0bf2e15b7c2e49bf
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 03:12:20 2016 +0900
+
+    Bugfix #20: Minimized preview support
+
+commit 2dbe86fc9dd1c55d973a1023cc162a612e8bc5c3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 22 03:05:41 2016 +0900
+
+    Modify conflicted dependencies on package.json
+
+commit 3b55c7f25801e15ffa619f6c71705e1dcb900836
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue May 17 09:18:26 2016 +0900
+
+    Fix electron version to 1.1.0
+
+commit 0dec5db8fe1f34182e814cddbc0d55e1e7ddb29c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon May 16 21:13:35 2016 +0900
+
+    Bugfix: Couldn't open correctly file from recent file menu
+
+commit 3d853bc97ebad573c980492d619b5f4476451ac4
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun May 15 02:12:14 2016 +0900
+
+    Update to Electron 1.0.x
+
+commit b48b42a2aa120389c7fce5e2548b5c0bfc383802
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 28 21:20:50 2016 +0900
+
+    Replace deprecated method from BrowserWindow.loadUrl to loadURL
+
+commit c0b6cb62b3e19e7f29b78c3b82a27bb912a21366
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 28 21:19:39 2016 +0900
+
+    Add accessor to Clear Menu command on file history
+
+commit a7721753c03ebf32a9eb8421de3e89535d4c87f4
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 28 13:19:08 2016 +0900
+
+    Update Electron v0.36.9
+
+commit 0217fffe269ccf19a03b9f056d0aa57b472d475c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 28 13:17:18 2016 +0900
+
+    Disabled edit menu commands in exporting PDF
+
+commit 0a76e2eba9d2bfc96fec43fb4ed7075728007779
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 28 02:27:17 2016 +0900
+
+    Bugfix: Not saved recent files after cleared menu
+    
+    - Improved rendered pane's loading states
+
+commit ab84d761fc4af968f28a470bd2ac8ba92c1e54fb
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 28 00:05:03 2016 +0900
+
+    Save splitter position
+    
+    - Recover to 1:1 split with double click
+
+commit c3f6998b6c35c46d8b51a3b8b99f01d2287982c8
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 27 23:40:16 2016 +0900
+
+    Update Windows exe resource (description)
+
+commit 32fe0893abbad428608635b3180ece18c6665d8b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 27 23:24:36 2016 +0900
+
+    Modify recent opened files order in Windows jump list
+
+commit 7fb27110ebb8abfddd50ab447bbc065fb9ee2087
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 26 07:21:25 2016 +0900
+
+    for OSX, suit recent opening menu and setting window represents
+
+commit c33794fc62ac40302261327631da69433a1310be
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Feb 23 02:14:09 2016 +0900
+
+    Open Recent menu implemented
+    
+    - Prepare slide mode states
+
+commit 790014b6c73401fb70e0e1e2a0e0036c96ce6190
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 22 15:00:07 2016 +0900
+
+    Implement config component
+
+commit 7f7517459130bbb3dfefc497d87aa784829d77fb
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 22 12:35:35 2016 +0900
+
+    Update version to v0.0.4pre
+
+commit 0456cd7d6a44b95653e1e78082300e870c7d70a6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 22 04:00:34 2016 +0900
+
+    Add replacement filter in menu component for files history
+
+commit 2a165de330bd11bdb616780f87670c2bff707193
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 22 03:19:03 2016 +0900
+
+    Remove debug code
+
+commit 9726ba1ece8af4e8677c6e91e459c922725231ce
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 22 03:16:54 2016 +0900
+
+    Classified main menu
+
+commit 832ec5bf45e83cc068f1461a12ba9bfae324fc78
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 22 02:37:49 2016 +0900
+
+    Improved menu components
+
+commit b5913e7ac911e9466f52165ad60b98d507a53847
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 21 23:39:39 2016 +0900
+
+    Fixed #14: External links in preview pane can't open in browser
+
+commit 5f27acbf2bb5645ffcae6b1d2ad419f52b1ba493
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 21 13:34:40 2016 +0900
+
+    Fix electron version to 0.36.8
+
+commit 12c4482b7d762b6bec027cb33235dc043732b3b1
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Feb 16 03:29:36 2016 +0900
+
+    Update package.json to v0.0.3
+
+commit 9b714377c4258b4ecf2fcad8fc39b43506731b8f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Feb 16 03:27:04 2016 +0900
+
+    Change README.md's section level
+
+commit 9e98fecae2e4c7d75acbf5bfe7be9cad13dd89ac
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Feb 16 03:25:16 2016 +0900
+
+    Update README.md and example.md
+
+commit e243ce81499da1194517a88726266a6a198f7d64
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 15 03:18:33 2016 +0900
+
+    Implement resizable splitter
+
+commit 1d1ffc273c1ea277390c64500d6374bcbff6ba14
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 14 05:52:13 2016 +0900
+
+    Bugfix #12: Disabled optimizing z-index by cssnano
+
+commit 3c6e2fb5fba027e4fb7a8cb38c4ba893d46b8a8f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 14 05:24:25 2016 +0900
+
+    Markdown association settings in darwin package
+
+commit 56e65ce0726732112f5aa5e4a1e34b25efab2408
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 14 03:44:07 2016 +0900
+
+    Implement opening file by arguments
+    
+    - Add `--development` option to access developer tools
+
+commit 16a0107fda891a6c08f359f2a28c8f08855e2e75
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 13 16:30:06 2016 +0900
+
+    Modify PDF exporting indicator's z-index
+
+commit e553f54f5961627a1c43b3d18d58aa8bcf3d1219
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 13 01:48:51 2016 +0900
+
+    Export to slide PDF => Export slides to PDF
+
+commit 4317f10806649718b1634a789254cd43dbe73f61
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 13 01:33:52 2016 +0900
+
+    Update README.md
+
+commit 30f68dc016ed02cd63e5a8fe48adcc6b6bf896ba
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 13 01:27:30 2016 +0900
+
+    Add image resource for Linux icon
+
+commit fd47f86a222925f48b8f61a8920ef2c014a10619
+Merge: 4e6686c 043644b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 13 00:30:26 2016 +0900
+
+    Merge branch 'master' of https://github.com/yhatt/mdslide
+
+commit 4e6686c0ff06d37939fb986a87be38ba0a694fb5
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 13 00:29:41 2016 +0900
+
+    Set icon to packaging tasks
+
+commit df2311bd4087e1fdeeaebe9d8f3f3df07f400ee5
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 13 00:19:45 2016 +0900
+
+    Add icon resources
+
+commit 043644bf63be7f98c8f5151f6f1d0b33a71c868d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 03:14:40 2016 +0900
+
+    Update README.md
+
+commit 3e688dfc00624c25910eb97423b7cc4b9b6ce58c
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 02:40:43 2016 +0900
+
+    Remove package task dependency (avoid multi execution of dist task)
+
+commit 98affe550bfb8c4150496387f69defa0ebaa86e0
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 02:36:17 2016 +0900
+
+    Set version 0.0.2
+    
+    - Rename package name to mdSlide
+
+commit 940e12f7ff15756bd7bf4fee055db89e17abee82
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 02:33:43 2016 +0900
+
+    Modify dmg setting for OSX release
+    
+    - Fix wrong dependencies to package task per platform
+
+commit 0dbcc4f469d43f06a97f1e88356407047f988760
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 02:20:25 2016 +0900
+
+    Fix archive:darwin to catch requiring
+
+commit ad4ef598ee5539f21e921f110aa8fe5177fc135b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 02:08:39 2016 +0900
+
+    Improved archiving task to per folder
+
+commit d6878231fc744ac415f473804781d595218d3647
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 02:02:18 2016 +0900
+
+    Add darwin release setting
+
+commit 1e3a2c78256f339acdb0e313039d7b7f845e8772
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 00:50:25 2016 +0900
+
+    Add resository setting to package.json
+
+commit 89954ee0ca30b949cb6966fdc58daf2e8381963f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 00:44:17 2016 +0900
+
+    Remove package conflict
+
+commit d34900ac382007ffb32e16035048719da132a804
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 00:40:28 2016 +0900
+
+    Add descriptions to Windows execution file
+
+commit 2676f621e4da58504670cc8f99264a4342ce54e0
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 12 00:19:35 2016 +0900
+
+    Improve build tasks
+
+commit bd9185319b9604d6aaf96d4ced928d2567ef8a70
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 19:31:17 2016 +0900
+
+    Set version 0.0.1
+
+commit 923d42030dfcddef7d59580b75c96f70a9c6bdca
+Merge: 30f70f1 f073a77
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 19:29:52 2016 +0900
+
+    Merge branch 'master' of github.com:yhatt/mdslide
+
+commit 30f70f1c00e9e9aee7978cbb9a470d63406dd527
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 19:29:19 2016 +0900
+
+    Update README.md and ignore release folder
+
+commit f073a77edc97f8a42823e1d1d65c1926cd480ccd
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 19:08:17 2016 +0900
+
+    Remove gulp-appdmg for building in Windows
+
+commit 905767ee72755927af8c7b49a927617e0ad5a845
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 18:36:25 2016 +0900
+
+    Add clean:releases task
+
+commit 39fc96bb9ce46e3ae513a465ff4ddd44ba7b6295
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 18:34:50 2016 +0900
+
+    Add package and release tasks
+
+commit 55d623786075afc231c3e25c0b4de6abfb00a6df
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 03:40:37 2016 +0900
+
+    Add gulp clean task
+
+commit 76b9bb855c1f5b5af56ba9f6987b3e6de3a4e411
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 03:30:44 2016 +0900
+
+    Add gulp setting for compiling production source
+
+commit 1f8aac4e64583980250a0ce387ca89832058d0e4
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 03:15:13 2016 +0900
+
+    Add electron-packager to development dependency
+
+commit 0c802aba182ebc76c8e2ac932df9f86dc38d3649
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 03:12:44 2016 +0900
+
+    Implemented #2: New window creation from Dock icon
+
+commit fdc66a1aaac86548e4c47d928dc2bef99a177c38
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 02:04:18 2016 +0900
+
+    Change default window size
+
+commit f0e7def4066cb236f2af98a81476ea59d680d2b2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 02:01:13 2016 +0900
+
+    Refactor calling showOpenDialog
+
+commit 291c538bfb1709a304faa7b208b340dc89fb9c26
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 01:54:38 2016 +0900
+
+    Fix #7: File open command doesn't work on closing all window
+
+commit 4d2e7d1290f024a2e02e33ec85e2ce6a14f24067
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 01:23:07 2016 +0900
+
+    Bug fix #6: Edit menu fix for CodeMirror
+
+commit d1a12a4820f559883630ece68ad66a080968761f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Thu Feb 11 01:06:05 2016 +0900
+
+    Implement #9: Supports opening file by D&D
+
+commit 4862658997ec135c592638e95d5e510062c166ba
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 20:56:39 2016 +0900
+
+    Modify save dialog filters
+
+commit 48ee38bdfd268ad12bea3c2f51287a9cf57a2d0f
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 19:45:39 2016 +0900
+
+    Bugfix #1: Modal dialog bugs to close application
+
+commit 6b7e57b9c7d84007bd34a28bff11758d2c923d0e
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 19:28:33 2016 +0900
+
+    Use browserWindow.destroy() to handle the confirmation on close
+
+commit 59ed7cd4609eae661c35e785dd18e1d4caa51291
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 03:37:18 2016 +0900
+
+    Add screen shot to README.md
+
+commit 54bc1ec00167d1f5112c5187fef2395ae8d2d5d6
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 03:32:25 2016 +0900
+
+    Change attached timing of main menu
+
+commit 75714dbcfba7f7f1d735921283c2ccdb26767f02
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 03:15:41 2016 +0900
+
+    Freeze window while exporting slide PDF
+
+commit 42d06ed5a29fab9cdd21308939506f4a28281e02
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 02:47:10 2016 +0900
+
+    Implement confirm on close to save modified file
+
+commit a5463476112782eda123018ef8d11d0bea01c261
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 02:04:50 2016 +0900
+
+    Simplized slide view mode switches
+
+commit d98124b630b47d5f74e647755441f4354c729ca4
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 01:30:08 2016 +0900
+
+    Add page indicator
+
+commit b0edbceb3737e149ca4f84ae225eb5853de21cad
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Wed Feb 10 01:20:17 2016 +0900
+
+    Implement file I/O and menus
+
+commit 190a96b7de18297d6461e9b9bf4fc4b772168122
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Tue Feb 9 02:12:38 2016 +0900
+
+    External browser opens on clicking slides hyperlink
+
+commit 766e0e63d4b3527c52a14b7eb94dda73970b15b2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 8 23:51:09 2016 +0900
+
+    Mode switch implemented
+
+commit 80c594885652f4afe2f9930992098c4c027cec31
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 8 21:56:01 2016 +0900
+
+    Fix mystery margin of image in PDF
+
+commit 32d258f54cb9a9320c653ee5d29e42a72f9ba635
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 8 01:55:25 2016 +0900
+
+    Implement PDF export (prototype)
+
+commit f6ba25f807ffa659fce4e9951c8a63a851f85165
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 8 01:03:38 2016 +0900
+
+    Add Japanese font styles
+
+commit a3dd04dbf4b904f7ed216abb1f404f95530909f3
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Mon Feb 8 00:35:10 2016 +0900
+
+    Bug fixes, and refined slide styling
+
+commit c222216c77a8358ac7e26b97cbff4646d371ca48
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 23:46:13 2016 +0900
+
+    Customized CSS for presentation
+
+commit 94b12245d887a23383ef94a0cdbfd81672b33dc1
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 07:52:35 2016 +0900
+
+    Apply Github markdown preview
+
+commit 6178aef9dabd175e1b10f378e1c03f7302fadb64
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 07:24:56 2016 +0900
+
+    Simple markdown preview
+
+commit 6a9e8aa66dea43c01c41474954edecffb9ed5ee2
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 06:05:17 2016 +0900
+
+    Refactor code
+
+commit 24e7d7b53b1d6c79a9a6e2a4d417807c70ffd27b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 04:24:39 2016 +0900
+
+    Modify CodeMirror CSS (conflicted with photon)
+
+commit 19937427cd37deef19797cf621bbbf27eb572a73
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 03:55:23 2016 +0900
+
+    Re-set CodeMirror settings
+
+commit 9665b3efbd521651984e984f0087a7622e758722
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 03:00:53 2016 +0900
+
+    Implement event reciever to main process
+
+commit 30488e9f428ac7db118d487efbe47a6a6ed10976
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sun Feb 7 02:38:55 2016 +0900
+
+    Implement window management class
+
+commit 42e55120b7c2e90cc4d146c7bbc20e424b4520b4
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 6 02:26:20 2016 +0900
+
+    Add gulp.bat
+
+commit 97fd32f4d3f6df892970b98c02259f3586b3718b
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 6 02:07:08 2016 +0900
+
+    Implement CodeMirror editor
+
+commit 8688eaadc359ffb28e61baaeeb02ddd5849d5f9d
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 6 01:22:03 2016 +0900
+
+    Implement settings for compiling and running by gulp
+
+commit e39d48ddea976980cc537d327cbdcc664c268d24
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Sat Feb 6 00:09:13 2016 +0900
+
+    Add gulp development dependencies
+
+commit 014fa7c4a68416ddd6f3cd6a74f16a5d6c632d62
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 5 23:45:29 2016 +0900
+
+    Add dependencies for markdown editor
+
+commit 05d8dd6953f248d86ac02e22a0c12b33554a1828
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 5 23:42:13 2016 +0900
+
+    Modify README.md
+
+commit d56ddc96df69232f8ba2384d429f82406947c0cf
+Author: Yuki Hattori <yukihattori1116@gmail.com>
+Date:   Fri Feb 5 23:03:24 2016 +0900
+
+    Initial commit
